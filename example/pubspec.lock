@@ -191,5 +191,19 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.5.0"
+  zo_appbar:
+    dependency: "direct main"
+    description:
+      name: zo_appbar
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.5"
+  zo_gradient_icon:
+    dependency: "direct main"
+    description:
+      name: zo_gradient_icon
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.1"
 sdks:
   dart: ">=2.4.0 <3.0.0"
