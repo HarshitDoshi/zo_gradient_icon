@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 11/08/2019
 
-* TODO: Describe initial release.
+* Initial release. DON'T USE THIS PACKAGE YET! I am still setting up the project files.
