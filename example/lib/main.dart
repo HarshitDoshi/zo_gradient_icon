@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:zo_appbar/zo_appbar.dart';
 import 'package:zo_gradient_icon/zo_gradient_icon.dart';
 
-void main()=> runApp(ExampleZOAppBar());
+void main() => runApp(ExampleZOAppBar());
 
 class ExampleZOAppBar extends StatelessWidget {
   @override
@@ -34,10 +34,28 @@ class _ExampleHomeState extends State<ExampleHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: ZOAppBar(8.0, 'zo_appbar', '.', 'EXAMPLE', Colors.white, [Color(0xFF1565C0), Color(0xFF0D47A1), Color(0xFF263238), Color(0xFF212121),], Brightness.dark, []),
+      appBar: ZOAppBar(
+          8.0,
+          'zo_gradient_icon',
+          '.',
+          'EXAMPLE',
+          Colors.white,
+          [
+            Color(0xFF1565C0),
+            Color(0xFF0D47A1),
+            Color(0xFF263238),
+            Color(0xFF212121),
+          ],
+          Brightness.dark,
+          []),
       body: SafeArea(
         child: Center(
-          child: ZOGradientIcon(Icons.phone_iphone, 30.0, [Color(0xFF1565C0), Color(0xFF0D47A1), Color(0xFF263238), Color(0xFF212121),]),
+          child: ZOGradientIcon(Icons.phone_iphone, 30.0, [
+            Color(0xFF1565C0),
+            Color(0xFF0D47A1),
+            Color(0xFF263238),
+            Color(0xFF212121),
+          ]),
         ),
       ),
     );
