@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 
 class ZOGradientIcon extends StatefulWidget {
   ZOGradientIcon(
-      this.icon,
-      this.size,
-      this.gradientColors,
-      );
+    this.icon,
+    this.size,
+    this.gradientColors,
+  );
 
   final IconData icon;
   final double size;
